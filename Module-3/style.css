@@ -1,0 +1,9 @@
+table{
+    border-style: groove;
+    border-color: black;
+    text-align: center;
+}
+th{
+    border-style: groove;
+    border-color: black;
+}
