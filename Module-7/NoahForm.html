@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="Noahstyle.css">
+<head>
+    <title>Form Program</title>
+</head>
+
+<body>
+
+    <h1>Cool Survey Form</h1>
+
+    <form action="NoahForm.php" method="POST">
+        First Name:
+        <input type="text" name="firstName" required>
+        <br><br>
+        Age:
+        <input type="number" name="Age" required>
+        <br><br>
+        Email:
+        <input type="email" name="Email" required>
+        <br><br>
+        Birthday:
+        <input type="date" name="Birthday" required>
+        <br><br>
+        Favorite Hobby:
+        <select name="Hobby" required>
+            <option value="">Select Hobby</option>
+            <option value="Gaming">Gaming</option>
+            <option value="Reading">Reading</option>
+            <option value="Sleeping">Sleeping</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+        Student:
+        <input type="checkbox" name="Student" value="Yes">
+        Teacher:
+        <input type="checkbox" name="Teacher" value="Yes">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
